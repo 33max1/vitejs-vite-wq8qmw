@@ -10,7 +10,7 @@ const count = ref(0);
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button type="button" @click="count++">点击了 {{ count }} 次</button>
   </div>
 </template>
 
